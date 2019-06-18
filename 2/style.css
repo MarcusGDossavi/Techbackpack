@@ -41,8 +41,15 @@ a:hover {
   color: rgb(225, 0, 152);
 }
 
+.var {
+  background-color: green;
+  font-family: 'Roboto', sans-serif;
+  color: red;
+
+}
+
 #logo{
-  color: #41A3C0;
+  color: black;
   font-size: 35px;
   font-family: 'Pacifico', cursive;
   float: left;
@@ -51,7 +58,7 @@ a:hover {
 }
 
 .defis #logo{
-  color:white;
+  color:black;
 }
 
 /* Mis en forme de la baseline */
@@ -71,7 +78,7 @@ a:hover {
 
 #baseline h1 {
   font-size: 50px;
-  color: rgb(225, 0, 152);
+  color: black;
 }
 
 #baseline h2 {
@@ -115,10 +122,10 @@ a:hover {
 
 
 #welcome{
-  background-color: #41A3C0;
+  background-color: green;
   text-align: center;
   padding: 50px;
-  color: white;
+  color: black;
 }
 
 #welcome h4{
@@ -135,6 +142,7 @@ a:hover {
   max-width: 1000px;
 
 }
+
 
 
 #defis h2 {
