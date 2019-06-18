@@ -92,10 +92,15 @@ a:hover {
 }
 
 
- #apropos{
+ #apropos{border: 10px solid green;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   width: 80%;
 }
+
+.red {
+  color: red;
+}
+
