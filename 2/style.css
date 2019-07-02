@@ -52,7 +52,20 @@ a:hover {
 
 .defis #logo{
   color:black;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
+    color: rgb(225, 0, 152)
 }
+
+h4 {
+  color:black;
+  font-size: 15px;
+  font-family: 'Arial', cursive;
+  color: rgb(225, 0, 152)
+}
+
 
 /* Mis en forme de la baseline */
 #baseline{
@@ -114,17 +127,6 @@ a:hover {
 }
 
 
-#welcome{
-  background-color: green;
-  text-align: center;
-  padding: 50px;
-  color: black;
-}
-
-#welcome h4{
- font-size: 50px;
-}
-
 #defis{
   margin-top:100px;
   display: flex;
@@ -136,7 +138,17 @@ a:hover {
 
 }
 
+#welcome{
+  background-color: black;
+  text-align: center;
+  background: url("https://farragut.org/wp-content/uploads/2016/01/color-run.jpg") no-repeat top center fixed;
+  padding: 50px;
+  color: black;
+}
 
+#welcome h4{
+ font-size: 50px;
+}
 
 #defis h2 {
   color: rgb(225, 0, 152);
