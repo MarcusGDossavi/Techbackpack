@@ -48,10 +48,19 @@ $( document ).ready(function() {
 
   loadChallenges();
 
+  $("#download").on( "click", function() {
+    alert( "Disponible bientôt")
+  })
+
 })
 
 
-
+ //if ($(this).hasClass('red')) {
+       // $(this).removeClass('red'); 
+      // }else{  
+        // $(this).addClass('red');
+          //}     
+           // $(this).html("FLEEKAH"); 
 
 // function welcome() {
    // $("#welcome").html('<h4>Bienvenue , <br> soyez pret à renouveler de nouveaux défis !</h4>');
